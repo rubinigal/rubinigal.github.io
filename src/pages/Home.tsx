@@ -2,9 +2,10 @@ import '../styles/Home.css'
 
 function Home(): JSX.Element {
     return (
-    <>
-        <h1>Opening Soon</h1>
-    </>
+    <div>
+        <h1>Home Page</h1>
+        <p>Welcome to the home page!</p>
+    </div>
     )
 }
 

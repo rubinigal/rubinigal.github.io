@@ -1,4 +1,9 @@
 h1 {
     color: azure;
-    font-size: 4rem;
+    font-size: 6rem;
+}
+
+p {
+    color: azure;
+    font-size: 2rem;
 }
