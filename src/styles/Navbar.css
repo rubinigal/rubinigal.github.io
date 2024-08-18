@@ -1,0 +1,39 @@
+.nav-bar {
+    display: flex;
+    width: 100%;
+    background-color: var(--color-blue);
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 20px;
+    color: var(--color-black);
+}
+
+.nav-bar a:hover {
+    color: var(--color-white);
+    background-color: var(--color-blue2);
+  }
+
+.nav-bar p {
+    margin: 20px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    flex: 1;
+}
+
+.nav-bar li {
+    list-style: none;
+    margin-left: 20px;
+}
